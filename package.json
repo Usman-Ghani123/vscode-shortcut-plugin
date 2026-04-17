@@ -3,7 +3,12 @@
   "displayName": "Shortcut Finder",
   "description": "Search VS Code keyboard shortcuts by describing what you want to do",
   "version": "0.0.1",
-  "publisher": "Usman Ghani",
+  "publisher": "usman-ghani123",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Usman-Ghani123/vscode-shortcut-plugin.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
