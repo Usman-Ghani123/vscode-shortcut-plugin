@@ -1,6 +1,6 @@
 {
-  "name": "shortcut-finder",
-  "displayName": "Shortcut Finder",
+  "name": "vscode-shortcut-finder",
+  "displayName": "VSCode Shortcut Finder",
   "description": "Search VS Code keyboard shortcuts by describing what you want to do",
   "version": "0.0.1",
   "publisher": "usman-ghani123",
