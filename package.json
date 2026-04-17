@@ -1,0 +1,46 @@
+{
+  "name": "shortcut-finder",
+  "displayName": "Shortcut Finder",
+  "description": "Search VS Code keyboard shortcuts by describing what you want to do",
+  "version": "0.0.1",
+  "publisher": "Usman Ghani",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "keyboard",
+    "shortcuts",
+    "keybindings",
+    "productivity"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "shortcutFinder.search",
+        "title": "Shortcut Finder: Search Shortcuts"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "shortcutFinder.search",
+        "key": "ctrl+alt+k",
+        "mac": "cmd+alt+k"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "18.x",
+    "typescript": "^5.3.0"
+  }
+}
